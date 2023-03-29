@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "exercise": "Squats",
+      "sets": "3",
+      "weight": "225",
+      "repGoal": "8-10",
+      "repsDone": "10"
+    },
+    {
+      "id": 2,
+      "exercise": "Squats",
+      "sets": "3",
+      "weight": "225",
+      "repGoal": "8-10",
+      "repsDone": "10"
+    },
+    {
+      "id": 3,
+      "exercise": "Squats",
+      "sets": "3",
+      "weight": "225",
+      "repGoal": "8-10",
+      "repsDone": "10"
+    },
+    {
+      "id": 4,
+      "exercise": "Squats",
+      "sets": "3",
+      "weight": "225",
+      "repGoal": "8-10",
+      "repsDone": "10"
+    },
+    {
+      "id": 5,
+      "exercise": "Squats",
+      "sets": "3",
+      "weight": "225",
+      "repGoal": "8-10",
+      "repsDone": "10"
+    }
+  ]
