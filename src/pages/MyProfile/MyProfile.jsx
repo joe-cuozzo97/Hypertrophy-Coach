@@ -4,6 +4,7 @@ import data from "../../mock-data.json";
 import ReadOnlyRow from "../../components/ReadOnlyRow";
 import EditableRow from "../../components/EditableRow";
 import './MyProfile.css'
+import Button from '@mui/material/Button';
 
 const App = () => {
   const [workouts, setWorkouts] = useState(data);
@@ -118,6 +119,13 @@ const App = () => {
 
   return (
     <div className="app-container">
+
+<div>
+  <h1>HELLO</h1>
+</div>
+
+
+
       <form onSubmit={handleEditFormSubmit}>
         <table>
           <thead>
@@ -188,7 +196,7 @@ const App = () => {
           placeholder="Enter reps done..."
           onChange={handleAddFormChange}
         />
-        <button type="submit">Add</button>
+       <Button variant="outlined" type="submit">Add</Button>
       </form>
     </div>
   );

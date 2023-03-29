@@ -10,6 +10,7 @@ const ReadOnlyRow = ({ workout, handleEditClick, handleDeleteClick }) => {
       <td>{workout.repsDone}</td>
       <td>
         <button
+        variant="primary"
           type="button"
           onClick={(event) => handleEditClick(event, workout)}
         >
